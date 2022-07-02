@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Force Transport</title>
-
+    <link rel="stylesheet" href="styles.css">
     <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
 <!--  If necessary, please modify the charset parameter to specify the        -->
@@ -17,14 +17,9 @@
 </head>
 <body>
     <h1>Force Transport</h1>
-
-
-
-
     <!--  ----------------------------------------------------------------------  -->
     <!--  NOTE: Please add the following <FORM> element to your page.             -->
     <!--  ----------------------------------------------------------------------  -->
-    
     <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
     
     <input type=hidden name="oid" value="00D8c000008xFgE">
@@ -41,8 +36,7 @@
     <label for="first_name">Nombre</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
     
     <label for="last_name">Apellidos</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
-    
-    Cargo:<input  id="00N8c00000aM8Fr" maxlength="150" name="00N8c00000aM8Fr" size="20" type="text" /><br>
+    <label for="last_name">Cargo:</label><input  id="00N8c00000aM8Fr" maxlength="150" name="00N8c00000aM8Fr" size="20" type="text" /><br>
     
     <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
     
@@ -84,7 +78,8 @@
     <option value="Other">Other</option>
     </select><br>
     
-    Número de empleados:<select  id="00N8c00000aM8Fm" name="00N8c00000aM8Fm" title="Número de empleados"><option value="">--Ninguno--</option><option value="1 - 20 Empleados">1 - 20 Empleados</option>
+    <label for="last_name">Número de empleados:</label>
+    <select  id="00N8c00000aM8Fm" name="00N8c00000aM8Fm" title="Número de empleados"><option value="">--Ninguno--</option><option value="1 - 20 Empleados">1 - 20 Empleados</option>
     <option value="21 - 50 Empleados">21 - 50 Empleados</option>
     <option value="51 - 300 Empleados">51 - 300 Empleados</option>
     <option value="301 - 1.000 Empleados">301 - 1.000 Empleados</option>
@@ -92,11 +87,12 @@
     <option value="2.001 + Empleados">2.001 + Empleados</option>
     </select><br>
     
-    Servicio de interés:<select  id="00N8c00000aM8Fw" multiple="multiple" name="00N8c00000aM8Fw" title="Servicio de interés"><option value="Alquiler de vehículos">Alquiler de vehículos</option>
+    <label for="last_name">Servicio de interés:</label>
+    <select  id="00N8c00000aM8Fw" multiple="multiple" name="00N8c00000aM8Fw" title="Servicio de interés"><option value="Alquiler de vehículos">Alquiler de vehículos</option>
     <option value="Viajes individuales">Viajes individuales</option>
     </select><br>
-    
-    País:<select  id="00N8c00000aM7c6" name="00N8c00000aM7c6" title="País"><option value="">--Ninguno--</option><option value="España">España</option>
+    <label for="last_name">País:</label>
+    <select  id="00N8c00000aM7c6" name="00N8c00000aM7c6" title="País"><option value="">--Ninguno--</option><option value="España">España</option>
     <option value="Argentina">Argentina</option>
     <option value="México">México</option>
     <option value="Brasil">Brasil</option>

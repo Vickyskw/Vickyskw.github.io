@@ -1,0 +1,16 @@
+ /* Inician estilos que usé para formulario de Force Transport*/ 
+form {
+    box-sizing: border-box;
+    padding: 2rem;
+  }
+  
+  input {
+    margin: 0.5rem 1rem;
+  }
+  
+  label {
+    display: inline-block;
+    width: 10rem;
+    margin: 0.5rem 1rem;
+   }
+    /* Finalizan estilos que usé para formulario de Force Transport*/ 
